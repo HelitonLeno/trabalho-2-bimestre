@@ -1,5 +1,5 @@
 /*
-    Crie um algoritmo que dado um número n, gere todas as possíveis combinações,
+    Crie um algoritmo que dado um nÃºmero n, gere todas as possÃ­veis combinaÃ§Ãµes,
       com as n primeiras letras do alfabeto.
       Ex.: n = 3. Resposta: ABC, ACB, BAC, BCA, CAB, CBA.
  */
@@ -12,7 +12,7 @@ public class Exercicio19 {
 
         String alfabeto = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
 
-        System.out.println("Digite o numero de letras para a combinação: ");
+        System.out.println("Digite o numero de letras para a combinaÃ§Ã£o: ");
         int tamanhoLetras = in.nextInt();
 
         // --- Pega N digitado das primeiras  letras e atribui ao alfabeto ---
@@ -22,8 +22,8 @@ public class Exercicio19 {
         imprimirCombinacao("", alfabeto);
     }
 
-    /*
-        Cada vez que a funcao roda, retira uma letra, faz uma concatenação com a @var auxiliar
+    /**
+        Cada vez que a funcao roda, retira uma letra, faz uma concatenaÃ§Ã£o com a @var auxiliar
         e faz uma permuta com a sobra das letras.
 
         @param auxiliar
