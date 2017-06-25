@@ -18,7 +18,7 @@ public class Exercicio25 {
         }
     }
 
-    static int gerarNumeroDePell(int numero) {
+    private static int gerarNumeroDePell(int numero) {
         if (numero == 0 || numero == 1)
             return numero;
         else
